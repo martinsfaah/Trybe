@@ -1,0 +1,51 @@
+Esqueleto de uma pág
+Estrutura primária, com diversas tags para representar as informações que quermos transmitir.
+Como representar uma imagem/tabela/vídeo ?
+
+HTML - PRIMEIRAS TAGS
+<html lang="pt-br>
+<!DOCTYPE html>
+<img> src="nomeDoArquivo" alt="descrição da foto." width="TamanhoDaFoto" (Tbm não precisa de tag pra fechar)
+<meta>
+<ol> lista ordenada (nº1, 2, ...)
+<ul> lista não-ordenada 
+<li> ítem da lista
+<h1><h2>...<h6>
+<strong> negrito. abre e fecha a tag;
+<em> tipo itálico, mas com um comportamento semantico diferente
+<p>
+<tittle>
+<br> p/ quebra de linha; não precisa de tag para fechar
+<body> O q deveria estar visível
+<head> configurações da pag
+
+
+ESTRUTURA: <nomeTag atributo="valor">
+            conteúdo da tag
+            </nomeTag>
+        <p id="texto">
+        Olá mundo
+        </p>
+
+<DOCTYPE html>
+<html lan="pt-br"
+    <head>
+        <meta charset="UTF-8">
+        <tittle> Aprendendo HTML<tittle>
+    </head>
+    <body>
+        <h1> O que é importante</h1>
+        <h2> Não vamos esquecer...</h2>
+        <p>A joranada começa oficialmente hj.. (Não, não começou hj)</p>
+    </body>
+</html>        
+
+links externos e internos
+hiperlink dentro da pag e outra pag
+<a> href="link externo" target="_blank" </a>
+link interno ver vídeo
+https://app.betrybe.com/course/fundamentals/introducao-a-html-e-css/html-css-estruturas-de-pagina/43afcfb3-f3c5-4dc0-b60f-fab893d76cd3/conteudos/38f73504-6558-4cff-9ead-28d920a84925/html-links-externos-e-internos/0d2e5afd-a27b-4f13-abd1-b2064b1209a4?use_case=next_button
+
+
+Continuar: https://app.betrybe.com/course/fundamentals/introducao-a-html-e-css/html-css-estruturas-de-pagina/43afcfb3-f3c5-4dc0-b60f-fab893d76cd3/exercicios/a9edc17d-55a1-4991-9ffe-08c3a4165435/construindo-seu-primeiro-portfolio-web/a1414d39-6f23-4364-8e4a-5ed37987d37a?use_case=next_button 
+
