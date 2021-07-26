@@ -1,0 +1,37 @@
+  body{
+		background-color: rgb(246, 231, 203);
+  }
+  #insta{
+    color: rgb;
+    font-family: "Montserrat";
+    margin-left: 0%;
+    text-align: center;
+
+  }
+	#Nome{
+		color: rgb(247, 37, 133);
+		font-size: 50px;
+    font-family: "Zen Tokyo Zoo";
+    text-align: center;
+	}
+	#listaMenu{
+    color: rgb(116, 211, 174);
+    display:inline-block;
+    list-style-type: none;
+    font-family: "Montserrat";
+    text-align: center;
+  }
+  #foto{
+    text-align: center;
+  }
+  h3{
+		color: rgb(114, 9, 183);
+    font-family: "Raleway";
+    text-align: justify;
+    padding-left: 200px;
+    padding-right: 200px;
+  }
+  #Habilidades{
+    color: rgb(103, 141, 88);
+    font-family: "Montserrat";
+  }
