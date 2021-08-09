@@ -1,0 +1,9 @@
+PALETA DE CORES 4:
+    Medium Aquamarine rbg(116, 211, 174)
+    Russian Green rgb(103, 141, 88)
+    Olivine rgb(166, 196, 138)
+    Champagne rgb(246, 231, 203)
+    Dark Salmon rgb(221, 151, 135)
+    Roxo Desconhecido rgb(114, 9, 183)
+    Rosa desconhecido rgb(247, 37, 133)
+
