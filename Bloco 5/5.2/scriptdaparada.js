@@ -1,4 +1,14 @@
+// 1 
+let titulo = document.createElement('h1')
+document.body.appendChild('titulo')
+titulo.innerText = 'Exercício 5.2 - JavaScript'
 
+// 2
+let main = document.createElement('main')
+document.body.appendChild('main')
+main.className = 'main-content'
+
+//3
 
 
 
