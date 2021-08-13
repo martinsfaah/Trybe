@@ -1,0 +1,21 @@
+function botao(string) {
+  let botoes = document.querySelector('.buttons-container');
+  let botaoX = document.createElement('button');
+  botaoX.innerText = string;
+  botoes.appendChild(botaoX);
+  botaoX.id = 'btn-holiday';
+}
+botao('Feriados')
+
+//
+
+const divDosBotoes = document.querySelector('.buttons-container');
+
+function criarBotaoFeriado(string) {
+  const botaoFeriado = document.createElement('button');
+  botaoFeriado.id = 'btn-holiday';
+  botaoFeriado.innerText = string;
+  divDosBotoes.appendChild(botaoFeriado);
+}
+
+criarBotaoFeriado('Feriados');
