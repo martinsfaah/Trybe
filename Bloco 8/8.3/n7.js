@@ -71,7 +71,7 @@ const books = [
 const expectedResult = 'O Senhor dos Anéis';
 
 function authorWith3DotsOnName() {
-  const tresLetras = books.find((livro) => livro.author.name.startsWith());
+  const tresLetras = books.find((livro) => livro.author.name.startsWith('J. R. R.'));
   const oLivro = tresLetras.name;
   return oLivro
 }

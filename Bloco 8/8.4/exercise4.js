@@ -65,20 +65,38 @@ const books = [
 
 // Adicione o código do exercício aqui:
 
-// 5 - Crie um array em ordem alfabética apenas com os nomes de todas as pessoas autoras de ficção científica ou fantasia.
+// 4 - Encontre o livro com o maior nome.
 
-const expectedResult = [
-  'Frank Herbert',
-  'George R. R. Martin',
-  'Isaac Asimov',
-  'J. R. R. Tolkien',
-];
+const expectedResult = {
+  id: 1,
+  name: 'As Crônicas de Gelo e Fogo',
+  genre: 'Fantasia',
+  author: {
+    name: 'George R. R. Martin',
+    birthYear: 1948,
+  },
+  releaseYear: 1991,
+};
 
-function fantasyOrScienceFictionAuthors() {
-  const ficTasia = books.filter((book) => book.genre === 'Ficção Científica' || book.genre === 'Fantasia');
-  const autorLivros = ficTasia.map((item) => item.author.name);
-  const emOrdem = autorLivros.sort();
-  return emOrdem
+// function longestNamedBook(arrayBooks) {
+//   const maiorLivro = arrayBooks.reduce((acc, book) => { 
+//     if (book.name.length > acc.length) {
+//       acc = book.name 
+//       return acc} else {
+//         return acc }
+//   }, '0')
+//   const resultado = arrayBooks.find((obj) => obj.name === maiorLivro)
+//   return resultado
+// }
+
+function longestNamedBook(arrayBooks) {
+  const maiorLivro = arrayBooks.reduce((acc, book) => { 
+    if (book.name.length > acc.name.length) {
+      acc = book;
+      return acc} else {
+        return acc};
+  })
+  return maiorLivro;
 }
 
-assert.deepStrictEqual(fantasyOrScienceFictionAuthors(), expectedResult);
+assert.deepStrictEqual(longestNamedBook(books), expectedResult);
